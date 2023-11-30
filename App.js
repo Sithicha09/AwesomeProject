@@ -13,7 +13,8 @@ import Ex06 from './screens/Week2/Ex06';
 import Ex07 from './screens/Week2/Ex07';
 import Ex08 from './screens/Week2/Ex08';
 import Ex09 from './screens/Week2/Ex09';
-import Greeting from './screens/components/Greeting';
+// import Greeting from './components/Greeting';
+import Travel from './screens/Week3/Travel';
 
 
 export default function App() {
@@ -27,11 +28,12 @@ export default function App() {
     // <Ex06 />
     // <Ex07 />
     //<Ex08 />
-    <Ex09 />
+    //<Ex09 />
     // <View style={{alignItems: 'center', top: 50}}>
     //     <Greeting name='Rexxar' />
     //     <Greeting name='Jaina' />
     //     <Greeting name='Valeera' />
     //   </View>
+    <Travel />
   );
 }
