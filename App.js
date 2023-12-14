@@ -16,6 +16,7 @@ import Ex09 from './screens/Week2/Ex09';
 // import Greeting from './components/Greeting';
 import Travel from './screens/Week3/Travel';
 import Health from './screens/week5/Health';
+import Resort from './screens/week4/Resort';
 
 
 export default function App() {
@@ -35,7 +36,8 @@ export default function App() {
     //     <Greeting name='Jaina' />
     //     <Greeting name='Valeera' />
     //   </View>
-    //<Travel />
-    <Health />
+    // <Travel />
+    // <Health />
+    <Resort />
   );
 }
